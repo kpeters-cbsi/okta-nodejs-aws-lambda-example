@@ -20,5 +20,8 @@
     "node-fetch": "2.6.0",
     "topojson-client": "3.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "serverless": "^2.23.0",
+    "serverless-dotenv-plugin": "^3.3.0"
+  }
 }
