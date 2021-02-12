@@ -16,7 +16,7 @@ package:
 
 plugins:
   - serverless-dotenv-plugin
-      
+
 provider:
   name: aws
   runtime: nodejs12.x
@@ -26,11 +26,11 @@ functions:
   app:
     handler: index.handler
     events:
-      - http: 
+      - http:
           path: /
           method: ANY
           cors: true
-      - http: 
+      - http:
           path: /{proxy+}
           method: ANY
-          cors: true      
+          cors: true
