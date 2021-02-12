@@ -30,8 +30,8 @@ const oidc = new ExpressOIDC({
   loginRedirectUri,
   routes: {
     loginCallback: {
-      // afterCallback: `${absPathPrefix}/where-is-it`,
-      afterCallback: `${absPathPrefix}/whizzo`,
+      afterCallback: `${absPathPrefix}/where-is-it`,
+      //afterCallback: `${absPathPrefix}/whizzo`,
     },
   },
 })
